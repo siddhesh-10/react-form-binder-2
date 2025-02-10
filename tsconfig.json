@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES5",                        /* Specify ECMAScript target version */
+      "module": "CommonJS",                   /* Specify module code generation */
+      "lib": ["dom", "es6"],
+      "declaration": true,                    /* Generate corresponding .d.ts files */
+      "outDir": "./dist",                     /* Redirect output structure to the dist folder */
+      "strict": true,                         /* Enable all strict type-checking options */
+      "jsx": "react",                         /* Support for JSX in React */
+      "moduleResolution": "node",             /* Use Node.js module resolution */
+      "esModuleInterop": true,                /* Enable compatibility with CommonJS modules */
+      "skipLibCheck": true                    /* Skip type checking of declaration files */
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist", "**/*.spec.ts"]
+  }
+  
