@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A React hook that simplifies form state management by providing Angular-like two-way binding, nested state support, and validation—all with TypeScript support.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest"
@@ -11,8 +12,15 @@
     "type": "git",
     "url": "https://github.com/siddhesh-10/react-form-binder.git"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "react",
+    "react-form-binder-2",
+    "react-form-binder",
     "form",
     "binder",
     "validation",
@@ -26,9 +34,9 @@
     "react": ">=16.8.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
     "@types/react": "^18.0.0",
-    "@types/jest": "^29.0.0"
+    "jest": "^29.0.0",
+    "typescript": "^5.7.3"
   }
 }
