@@ -1,6 +1,6 @@
 {
   "name": "react-form-binder-2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React hook that simplifies form state management by providing Angular-like two-way binding, nested state support, and validation—all with TypeScript support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
