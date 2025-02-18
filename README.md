@@ -29,7 +29,7 @@ yarn add react-form-binder
 
 ```tsx
 import React from 'react';
-import { useFormBinder } from '@yourusername/react-form-binder';
+import { useFormBinder } from 'react-form-binder-2';
 
 interface FormValues {
   name: string;
